@@ -1,0 +1,15 @@
+meta {
+  name: CREATE Movie
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8000/movies/create
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

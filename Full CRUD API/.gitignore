@@ -1,0 +1,74 @@
+# --------------------
+# GO
+# --------------------
+# Go modules
+/go.sum
+/go.mod
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build directories
+/bin/
+build/
+out/
+
+# Test binary
+*.test
+
+# Coverage files
+*.cov
+
+# --------------------
+# ENV / CONFIG
+# --------------------
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# --------------------
+# IDE / Editor
+# --------------------
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# --------------------
+# OS
+# --------------------
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+
+# --------------------
+# Database / DB files (if any)
+# --------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# Misc
+# --------------------
+*.swp
+*.tmp
+*.bak
